@@ -47,5 +47,7 @@ def using_delete_at(array, num)
   puts array
   puts num 
   array2 = array.delete(num)
+  puts array2
+  array2
 end 
 
