@@ -43,11 +43,6 @@ def using_delete(array, string)
 end 
 
 def using_delete_at(array, num)
-  puts "test"
-  puts array
-  puts num 
-  array2 = array.delete(num)
-  puts array2
-  array2
+  array2 = array.delete_at(num)
 end 
 
